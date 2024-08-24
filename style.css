@@ -1,0 +1,67 @@
+body {
+    background-color: #286002;
+   
+    text-align: center;
+    font-family:Blippo, fantasy;
+    margin: 0%;
+    padding: 0cqmax;
+    border: 2px solid rgba(0, 0, 0, 0.945);
+    button{
+      color: rgb(255, 38, 38);
+    }
+
+  }
+
+div {
+ 
+  padding: px px ;
+
+    button {
+      border-radius: 9px;
+      font-size: 20px;
+      
+    }
+}
+.DIV2 {
+border: 2px solid rgba(0, 0, 0, 0);
+background-color: rgb(101, 71, 5);
+padding: 70px 20px;
+text-align: center;
+border-radius: 0%;
+visibility:hidden;
+color: #2f7203;
+
+
+}
+@keyframes animacao {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.06)
+  }
+}
+button:hover {
+  animation-name: animacao;
+  animation-duration: 0.350s;
+  transition-timing-function:step-end;
+  animation-iteration-count:infinite;
+  
+  background-color: rgb(126, 126, 126);
+  animation-direction:alternate;
+}
+.imgMinecraft {
+ width: 80px;
+ padding: 0;
+ margin: 0;
+ border-radius: 46px;
+
+}
+.vrsmc {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.creditos {
+  background-color: black;
+  padding: 24px;
+  text-align: center;
+}
